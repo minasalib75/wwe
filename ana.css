@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    position: relative;
+    background-color: black;
+}
+.nav{
+    top: 0px;
+    z-index: 1500;
+    width: 100%;
+   position: sticky;
+   height: 65px;
+   background-color: #ffebf3;  
+}
+.link-of-home{
+    position: absolute;
+    right: 402px;
+}
+.link-of-about{
+    position: absolute;
+    right: 254px;
+}
+.link-of-countact{
+    position: absolute;
+    right: 20px;
+}
+.link-of-countact,.link-of-about,.link-of-home{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 35px;
+    color: black;
+   
+    
+}
+.myname{
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d044a;
+    font-family: cursive;
+}
+.link-of-countact:hover,.link-of-about:hover,.link-of-home:hover{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+/* separetor */
+.all{
+    color: white;
+    /* background-color: black; */
+    margin-top: -20px;
+    text-align: center;
+    direction: rtl;
+    
+}
+h1{
+    color: #ff8cb3;
+    font-size: 50px;
+}
+.aboutanasemon{
+    width: 70%;
+    margin: auto;
+    background-color: #2d2d2d;
+    margin-top: 100px;
+    border-radius: 15px;
+    direction: rtl;
+}
+.anasemonphoto1{
+    width: 670px;
+    height: 800px;
+    margin: auto;
+    background-image: url(anasemon.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 680px 793px;
+    border-radius: 20px;
+}
+p{
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 40px;
+    direction: rtl;
+    line-height: 1.6;
+ 
+}
